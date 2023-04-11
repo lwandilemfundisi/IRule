@@ -15,7 +15,7 @@ namespace IRule.Validations
 
         Task<Notification> Validate(CancellationToken cancellationToken);
 
-        bool IsPropertyRule { get; set; }
+        bool IsPropertyValidation { get; set; }
 
         bool MustValidate();
 

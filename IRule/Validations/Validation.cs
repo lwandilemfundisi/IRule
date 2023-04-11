@@ -15,7 +15,7 @@ namespace IRule.Validations
         private Type propertyValueType;
         private bool? propertyHasValue;
 
-        #region IRule Members
+        #region IValidation Members
 
         public object Context { get; set; }
 
@@ -23,7 +23,7 @@ namespace IRule.Validations
 
         public object Owner { get; set; }
 
-        public bool IsPropertyRule { get; set; }
+        public bool IsPropertyValidation { get; set; }
 
         public string PropertyName { get; set; }
 
@@ -36,7 +36,7 @@ namespace IRule.Validations
             return OnValidate(cancellationToken);
         }
 
-        public bool IsApplicabilityRule { get; set; }
+        public bool IsApplicabilityValidation { get; set; }
 
         public SeverityType Severity { get; set; }
 
@@ -134,20 +134,20 @@ namespace IRule.Validations
 
         protected virtual Message CreateMessage(string message, params object[] values)
         {
-            var ruleMessage = ValidationHelper.CreateMessage(this, GenerateMessagePropertyName(), message, GenerateTag(Owner), values);
+            var validationMessage = ValidationHelper.CreateMessage(this, GenerateMessagePropertyName(), message, GenerateTag(Owner), values);
             if (ReadOnlyMessage.IsNotNullOrEmpty())
             {
-                ruleMessage.Text = ReadOnlyMessage;
-                ruleMessage.MayOverrideMessage = false;
+                validationMessage.Text = ReadOnlyMessage;
+                validationMessage.MayOverrideMessage = false;
             }
-            return ruleMessage;
+            return validationMessage;
         }
 
         protected virtual Message CreateReadOnlyMessage(string message, params object[] values)
         {
-            var ruleMessage = CreateMessage(message, values);
-            ruleMessage.MayOverrideMessage = false;
-            return ruleMessage;
+            var validationMessage = CreateMessage(message, values);
+            validationMessage.MayOverrideMessage = false;
+            return validationMessage;
         }
 
         #endregion
