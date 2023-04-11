@@ -3,7 +3,8 @@ using Microservice.Framework.Common;
 
 namespace IRule.Validations.Common
 {
-    public abstract class RequiredValidation<T> : Validation<T>, IRequiredValidation where T : class
+    public abstract class RequiredValidation<T> : 
+        Validation<T>, IRequiredValidation where T : class
     {
         #region IRequiredValidation Members
 
