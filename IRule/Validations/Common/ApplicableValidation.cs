@@ -1,7 +1,7 @@
-﻿using IRule.Notifications;
+﻿using XRule.Notifications;
 using Microservice.Framework.Common;
 
-namespace IRule.Validations.Common
+namespace XRule.Validations.Common
 {
     public abstract class ApplicableValidation<T>
         : Validation<T>, IApplicableValidation where T : class

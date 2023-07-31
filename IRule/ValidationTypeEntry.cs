@@ -1,7 +1,7 @@
-﻿using IRule.Validations.Attributes;
+﻿using XRule.Validations.Attributes;
 using Microservice.Framework.Common;
 
-namespace IRule
+namespace XRule
 {
     public class ValidationTypeEntry
     {

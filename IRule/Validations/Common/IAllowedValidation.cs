@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace IRule.Validations.Common
+namespace XRule.Validations.Common
 {
     public interface IAllowedValidation
         : IValidation

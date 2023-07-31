@@ -1,11 +1,11 @@
-﻿using IRule.Tests.Scenarios.TestScenarioRules;
-using IRule.Validations;
+﻿using XRule.Tests.Scenarios.TestScenarioRules;
+using XRule.Validations;
 using Microservice.Framework.Common;
 using Microsoft.Extensions.DependencyInjection;
-using IRule.Extensions;
+using XRule.Extensions;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 
-namespace IRule.Tests.Scenarios.Required
+namespace XRule.Tests.Scenarios.Required
 {
     public class RequiredValidationScenarioTests
     {

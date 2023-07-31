@@ -1,8 +1,8 @@
-﻿using IRule.Extensions;
-using IRule.Notifications;
+﻿using XRule.Extensions;
+using XRule.Notifications;
 using Microservice.Framework.Common;
 
-namespace IRule.Validations.Common
+namespace XRule.Validations.Common
 {
     public abstract class AlphaPropertyValidation<T>
         : Validation<T> where T : class

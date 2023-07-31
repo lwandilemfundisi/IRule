@@ -1,13 +1,13 @@
-﻿using IRule.Extensions;
-using IRule.Notifications;
-using IRule.Validations;
-using IRule.Validations.Attributes;
-using IRule.Validations.Common;
+﻿using XRule.Extensions;
+using XRule.Notifications;
+using XRule.Validations;
+using XRule.Validations.Attributes;
+using XRule.Validations.Common;
 using Microservice.Framework.Common;
 using System.Collections.Concurrent;
 using System.Reflection;
 
-namespace IRule
+namespace XRule
 {
     public class Validator : IValidator
     {

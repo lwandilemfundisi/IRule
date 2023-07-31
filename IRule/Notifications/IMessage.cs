@@ -1,4 +1,4 @@
-﻿namespace IRule.Notifications
+﻿namespace XRule.Notifications
 {
     public interface IMessage
     {

@@ -1,9 +1,9 @@
-﻿using IRule.Notifications;
+﻿using XRule.Notifications;
 using Microservice.Framework.Common;
 using System.Collections;
 using System.Reflection;
 
-namespace IRule.Validations
+namespace XRule.Validations
 {
     public abstract class Validation : IValidation
     {

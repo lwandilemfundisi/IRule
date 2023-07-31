@@ -1,7 +1,7 @@
-﻿using IRule.Notifications;
+﻿using XRule.Notifications;
 using Microservice.Framework.Common;
 
-namespace IRule.Validations
+namespace XRule.Validations
 {
     public interface IValidation
     {

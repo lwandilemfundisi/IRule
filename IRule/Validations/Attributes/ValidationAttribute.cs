@@ -1,4 +1,4 @@
-﻿namespace IRule.Validations.Attributes
+﻿namespace XRule.Validations.Attributes
 {
     [AttributeUsage(AttributeTargets.Class)]
     public sealed class ValidationAttribute : Attribute

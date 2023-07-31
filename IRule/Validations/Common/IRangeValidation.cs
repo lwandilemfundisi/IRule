@@ -1,4 +1,4 @@
-﻿namespace IRule.Validations.Common
+﻿namespace XRule.Validations.Common
 {
     public interface IRangeValidation
         : IValidation

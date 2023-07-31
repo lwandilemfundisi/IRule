@@ -3,7 +3,7 @@ using System.Collections;
 using System.Globalization;
 using System.Text;
 
-namespace IRule.Notifications
+namespace XRule.Notifications
 {
     public sealed class Notification
         : IFormattable, IEnumerable<Message>

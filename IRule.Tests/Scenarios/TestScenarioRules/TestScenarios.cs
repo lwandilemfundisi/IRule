@@ -1,8 +1,8 @@
-﻿using IRule.Validations;
-using IRule.Validations.Attributes;
-using IRule.Validations.Common;
+﻿using XRule.Validations;
+using XRule.Validations.Attributes;
+using XRule.Validations.Common;
 
-namespace IRule.Tests.Scenarios.TestScenarioRules
+namespace XRule.Tests.Scenarios.TestScenarioRules
 {
     public class TestObject
     {

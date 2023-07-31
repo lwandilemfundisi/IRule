@@ -2,7 +2,7 @@
 using System.Net.Mail;
 using System.Text.RegularExpressions;
 
-namespace IRule.Extensions
+namespace XRule.Extensions
 {
     public enum AllowedCharacter
     {

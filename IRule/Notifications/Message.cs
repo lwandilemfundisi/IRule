@@ -1,6 +1,6 @@
 ﻿using Microservice.Framework.Common;
 
-namespace IRule.Notifications
+namespace XRule.Notifications
 {
     public class Message : IMessage
     {

@@ -1,7 +1,7 @@
-﻿using IRule.Notifications;
+﻿using XRule.Notifications;
 using Microservice.Framework.Common;
 
-namespace IRule.Extensions
+namespace XRule.Extensions
 {
     public static class NotificationExtensions
     {

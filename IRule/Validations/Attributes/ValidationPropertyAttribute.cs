@@ -1,6 +1,6 @@
 ﻿using Microservice.Framework.Common;
 
-namespace IRule.Validations.Attributes
+namespace XRule.Validations.Attributes
 {
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = true)]
     public sealed class ValidationPropertyAttribute : Attribute
