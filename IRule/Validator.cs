@@ -90,7 +90,7 @@ namespace XRule
             var nonParallelValidations = validationValidations.Where(c => !c.CanExecuteParallel()).ToList();
 
             //business and validation validations
-            Parallel.ForEach(parallelValidations, new ParallelOptions { MaxDegreeOfParallelism = 5 }, async Validation =>
+            Parallel.ForEach(parallelValidations, new ParallelOptions { MaxDegreeOfParallelism = 5 }, Validation =>
             {
                 executingTasks.TryAdd(
                     Guid.NewGuid().ToString(),
