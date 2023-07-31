@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\IRule\XRule.csproj" />
+    <ProjectReference Include="..\IRule\XFrame.Rule.csproj" />
   </ItemGroup>
 
 </Project>

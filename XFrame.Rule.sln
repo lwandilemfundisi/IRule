@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XRule", "IRule\XRule.csproj", "{4F3C2179-EF5B-46C4-9D10-BB4DD0F66A06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XFrame.Rule", "IRule\XFrame.Rule.csproj", "{4F3C2179-EF5B-46C4-9D10-BB4DD0F66A06}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XRule.Tests", "IRule.Tests\XRule.Tests.csproj", "{4899C913-0ECB-4050-BF6C-1F4EEBF43D93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XFrame.Rule.Tests", "IRule.Tests\XFrame.Rule.Tests.csproj", "{4899C913-0ECB-4050-BF6C-1F4EEBF43D93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
